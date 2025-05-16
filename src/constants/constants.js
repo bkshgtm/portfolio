@@ -1,67 +1,62 @@
 export const projects = [
   {
-    title: "Apple Website Replica",
+    title: "BlipAir",
     description: 
-      "Developed a full-stack replica of the Apple website using Django. Implemented features like user authentication, product listing, and order management.",
-    image: "/images/AppleStore.png", // Replace with the actual image path or URL
-    tags: ["Django", "HTML", "CSS", "JavaScript"],
-    visit: "https://github.com/bkshgtm/AppleStore", 
+      "Peer-to-peer file sharing app enabling secure, encrypted transfers over local networks. Implemented QR-based peer discovery, TURN/STUN support, and WebRTC for seamless cross-device pairing in the browser.",
+    image: "Images/BlipAir.png",
+    tags: ["React", "WebRTC", "Node.js", "Fly.io", "Vercel"],
+    visit: "https:blipair.com",
     id: 1,
   },
-
   {
-    title: "Vitalique",
+    title: "Personalized Learning Path Generator",
     description: 
-      "Created a mobile-responsive web app for tracking health metrics like steps, calories, and exercise, using Next.js and React.",
-    image: "/images/Vitalique.png", // Replace with the actual image path or URL
-    tags: ["Next.js", "React", "REST APIs", "Firebase"],
-    visit: "https://healthsync-site.com", // Add your custom link if available
+      "An intelligent platform that recommends adaptive learning paths based on a student's knowledge graph and progress. Integrated deep learning models and Neo4j for dynamic path generation.",
+    image: "/Images/PAL.jpg",
+    tags: ["Python", "Django", "PyTorch", "Neo4j", "D3.js", "Docker"],
+    visit: "https://github.com/bkshgtm/learning-path",
     id: 2,
   },
   {
-    title: "EquiShare",
+    title: "Bulldogs Market",
     description: 
-      "Built an expense management application in Java with a JavaFX GUI, allowing users to split expenses and track group balances.",
-    image: "/images/EquiShare.png", // Replace with the actual image path or URL
-    tags: ["Java", "JavaFX"],
-    visit: "https://your-equishare-site.com", // Add your custom link if available
+      "A web application for AAMU's donation-based market, allowing students to browse and request free items. Features include user authentication, item browsing, shopping cart, and admin dashboard.",
+    image: "Images/Bulldogs.png",
+    tags: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Firebase"],
+    visit: "https://github.com/bkshgtm/bulldogs-market",
     id: 3,
   },
-
-  
-
-  
+  {
+    title: "Apple Website Replica",
+    description: 
+      "Developed a full-stack replica of the Apple website using Django. Implemented features like user authentication, product listing, and order management.",
+    image: "/images/AppleStore.png",
+    tags: ["Django", "PostgreSQL", "HTML", "CSS", "JavaScript"],
+    visit: "https://github.com/bkshgtm/AppleStore",
+    id: 4,
+  },
 ];
 
 export const TimeLineData = [
-  
+  {
+    year: "2025",
+    text: "Selected for the Big Data REU at UMBC to research scalable data analytics and machine learning systems."
+  },
   {
     year: "2024",
-    text: "Currently pursuing a Bachelor of Science in Computer Science at Alabama Agricultural and Mechanical University. Focused on advanced coursework in data structures, algorithms, and database systems."
+    text: "Focused on advanced CS coursework including data structures, discrete math, and systems programming at Alabama A&M University."
   },
   {
     year: "2023",
-    text: "Completed coursework at the University of North Texas with a focus on Object-Oriented Programming, Web Development, and iOS Development. Maintained a perfect GPA."
+    text: "Completed coursework at the University of North Texas in OOP, iOS Development, and Web Dev. Maintained a 4.0 GPA."
   },
   {
-    year: "2023",
-    text: "Developed HealthSync, a web app for tracking health metrics using Next.js and React. Implemented custom RESTful APIs and integrated Firebase for real-time data management."
-  },
-  {
-    year: "2021",
-    text: "Built AppleStore, a full-stack replica of the Apple website using Django. Included features like user authentication and product management, with a responsive front-end."
+    year: "2021-2022",
+    text: "Developed early projects like AppleStore (Django) and HealthSync (Next.js, Firebase) to explore full-stack development."
   }
-  // Add more entries as needed
 ];
 
-export const FiverUrl = "https://www.fiverr.com/tanv33r_khan";
-export const UpworkUrl =
-  "https://www.upwork.com/freelancers/~0128ca58b87e6d95b6";
-export const ResumeUrl = "https://www.cakeresume.com/tanveer-khan-21f68d";
+
 export const GithubUrl = "https://github.com/bkshgtm";
-export const LinkedInUrl =
-  "https://www.linkedin.com/in/bkshgtm/";
-export const FacebookUrl =
-  "https://www.facebook.com/profile.php?id=100007686159316";
-export const MobileNumber = "0334-2177092";
+export const LinkedInUrl = "https://www.linkedin.com/in/bkshgtm/";
 export const PersonalEmail = "social.bkshgtm@gmail.com";

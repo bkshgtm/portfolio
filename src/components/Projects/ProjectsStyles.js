@@ -15,11 +15,11 @@ export const ProjectCard = styled.div`
   background: #0F1624;
   border-radius: 10px;
   overflow: hidden;
-  cursor: ${props => props.className === 'hover-effect' ? 'pointer' : 'default'};
+  cursor: pointer;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
-  &.hover-effect:hover {
+  &:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   }

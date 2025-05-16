@@ -1,4 +1,3 @@
-// Remove or comment out the styles
 import styled from "styled-components";
 
 export const Boxes = styled.div`

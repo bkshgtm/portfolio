@@ -1,10 +1,10 @@
 import React, { useEffect, useRef, useState } from 'react';
-import * as THREE from 'three'; // Required by Vanta
-import FOG from 'vanta/dist/vanta.fog.min'; // Import Vanta.fog
+import * as THREE from 'three';
+import FOG from 'vanta/dist/vanta.fog.min';
 
 const BackgroundAnimation = () => {
-  const [vantaEffect, setVantaEffect] = useState(null); // State to hold the Vanta effect
-  const backgroundRef = useRef(null); // Reference to the background div
+  const [vantaEffect, setVantaEffect] = useState(null);
+  const backgroundRef = useRef(null);
 
   useEffect(() => {
     if (backgroundRef.current && !vantaEffect) {
